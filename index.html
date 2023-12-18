@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Dog Care Companion</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="Dog Care Companion Logo" id="nav-logo">
+        <ul id="main-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nutrition-recipes.html">Nutrition & Recipes</a></li>
+            <li><a href="health-wellness.html">Health & Wellness</a></li>
+            <li><a href="resources-contact.html">Resources & Contact</a></li>
+        </ul>
+        <ul id="social-media">
+            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </nav>
+    
+    <div class="container-dark">
+        <h1 class="form-title">Heel the Illness</h1>
+        <p class="form-subtitle">When your dog's under the weather, every moment counts. Share the symptoms with us, and we'll help heel the issue. Our team is dedicated to offering you insights into potential conditions and suggesting the next steps.</p>
+        <p class="form-subtitle">Fill out the form below to receive a customized care plan for your dog.</p>
+        <form id="dog-care-form">
+            
+            <div class="form-group">
+                <label for="dog-name"></label>
+                <input type="text" id="dog-name" name="dog_name" required placeholder="Dog's Name: Enter dog's name">
+              </div>
+            <div class="form-group">
+                <label for="breed"></label>
+                <select id="breed" name="breed" required>
+                    <option value="" disabled selected>Dog's Breed: Select breed</option>
+                    <option value="labrador_retriever">Labrador Retriever</option>
+                    <option value="french_bulldog">French Bulldog</option>
+                    <option value="german_shepherd">German Shepherd</option>
+                    <option value="golden_retriever">Golden Retriever</option>
+                    <option value="bulldog">Bulldog</option>
+                    <option value="poodle">Poodle</option>
+                    <option value="beagle">Beagle</option>
+                    <option value="rottweiler">Rottweiler</option>
+                    <option value="german_shorthaired_pointer">German Shorthaired Pointer</option>
+                    <option value="yorkshire_terrier">Yorkshire Terrier</option>
+                    <option value="boxer">Boxer</option>
+                    <option value="siberian_husky">Siberian Husky</option>
+                    <option value="dachshund">Dachshund</option>
+                    <option value="great_dane">Great Dane</option>
+                    <option value="doberman_pinscher">Doberman Pinscher</option>
+                    <option value="australian_shepherd">Australian Shepherd</option>
+                    <option value="cavalier_king_charles_spaniel">Cavalier King Charles Spaniel</option>
+                    <option value="shih_tzu">Shih Tzu</option>
+                    <option value="pembroke_welsh_corgi">Pembroke Welsh Corgi</option>
+                    <option value="miniature_schnauzer">Miniature Schnauzer</option>
+                    <option value="english_springer_spaniel">English Springer Spaniel</option>
+                    <option value="shetland_sheepdog">Shetland Sheepdog</option>
+                    <option value="american_staffordshire_terrier">American Staffordshire Terrier</option>
+                    <option value="cane_corso">Cane Corso</option>
+                    <option value="basset_hound">Basset Hound</option>
+                    <option value="border_collie">Border Collie</option>
+                    <option value="chihuahua">Chihuahua</option>
+                    <option value="akita">Akita</option>
+                    <option value="bichon_frise">Bichon Frise</option>
+                    <option value="belgian_malinois">Belgian Malinois</option>
+                    <option value="bull_terrier">Bull Terrier</option>
+                    <option value="boston_terrier">Boston Terrier</option>
+                    <option value="brittany">Brittany</option>
+                    <option value="english_bulldog">English Bulldog</option>
+                    <option value="whippet">Whippet</option>
+                    <option value="bernese_mountain_dog">Bernese Mountain Dog</option>
+                    <option value="pomeranian">Pomeranian</option>
+                    <option value="hound">Hound</option>
+                    <option value="cocker_spaniel">Cocker Spaniel</option>
+                    <option value="maltese">Maltese</option>          
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="symptoms"></label>
+                <select id="symptoms" name="symptoms" required>
+                  <option value="">Select Symptoms</option>
+                  <option value="vomiting">Vomiting</option>
+                  <option value="diarrhea">Diarrhea</option>
+                  <option value="lethargy">Lethargy</option>
+                  <option value="loss_of_appetite">Loss of Appetite</option>
+                  <option value="excessive_drooling">Excessive Drooling</option>
+                  <option value="excessive_thirst">Excessive Thirst</option>
+                  <option value="frequent_urination">Frequent Urination</option>
+                  <option value="difficulty_breathing">Difficulty Breathing</option>
+                  <option value="coughing">Coughing</option>
+                  <option value="sneezing">Sneezing</option>
+                  <option value="weight_loss">Weight Loss</option>
+                  <option value="behavioral_changes">Behavioral Changes</option>
+                  <option value="seizures">Seizures</option>
+                  <option value="itching">Itching</option>
+                  <option value="skin_rash">Skin Rash</option>
+                  <option value="swelling">Swelling</option>
+                  <option value="lameness">Lameness</option>
+                  <option value="red_eyes">Red Eyes</option>
+                  <option value="bad_breath">Bad Breath</option>
+                  <option value="ear_infection">Ear Infection</option>
+                  
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="duration"></label>
+                <select id="duration" name="duration" required>
+                <option value="" disabled selected>Duration of Symptoms: Select duration</option>
+                  <option value="1_3_days">1-3 Days</option>
+                  <option value="1_week">1 Week</option>
+                  <option value="2_weeks">2 Weeks</option>
+                  <option value="1_month">1 Month</option>
+                </select>
+              </div>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+    </div>
+
+    <div class="container-light">
+        <div class="row">
+            <div class="column">
+                <img src="images/food-2.png" alt="Description of Image 1">
+                <h3>Balanced Diet for Dogs</h3>
+                <p>A healthy diet is crucial for your dog's overall health. Ensure their food includes essential nutrients and is appropriate for their age and size. Avoid overfeeding and give treats in moderation. Regular vet check-ups can help manage their diet effectively.</p>
+            </div>
+            <div class="column">
+                <img src="images/image.png" alt="Description of Image 2">
+                <h3>Exercise and Play</h3>
+                <p>Regular exercise keeps dogs physically fit and mentally sharp. Tailor activities to match your dog's breed and energy levels. Activities like walking, fetch, and agility training are beneficial. Exercise prevents obesity and reduces behavioral issues.</p>
+            </div>
+            <div class="column">
+                <img src="images/dog-12.png" alt="Description of Image 3">
+                <h3>Grooming for Health</h3>
+                <p>Regular grooming maintains your dog’s coat and skin health. Brushing prevents matting and checks for parasites. Occasional baths, nail trims, and dental care are essential. Proper grooming also helps in early detection of any skin or health issues.</p>
+            </div>
+        </div>
+    </div>
+     <footer>
+        <p>&copy; 2023 Dog Care Companion. All rights reserved. </p>
+        <p>Harold Luna - New York University - School of Professional Studies. </p>
+            <p> Contact us at: <a href="mailto:harold.luna@nyu.edu">harold.luna@nyu.edu</a></p>
+    </footer>  
+    <script src="script/script.js"></script>
+</body>
+</html>
